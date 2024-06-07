@@ -1,0 +1,201 @@
+/* Estilos base */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* Deshabilita el scroll */
+}
+
+.home-box {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f5f5dc;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+}
+
+.home-box img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.home-box h3 {
+  font-family: "ChauPhilomeneOne-Regular";
+  margin: 10px 0 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #8b4513;
+}
+
+.home-box h4 {
+  font-family: "nunito";
+  margin: 10px 0 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #312c28;
+}
+
+.home-box form {
+  position: relative;
+  font-family: "nunito";
+}
+
+.home-box form input {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 1px solid #8b4513;
+  background: #ffdab9;
+  outline: none;
+  height: 40px;
+  color: #8b4513;
+  margin-top: 10px;
+}
+
+.home-box form button {
+  font-family: "nunito";
+  width: 100%;
+  background: #ff4500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.home-box button {
+  font-family: "nunito";
+  width: calc(100% - 40px);
+  background: #ff4500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.container-uninorte {
+  position: absolute;
+  bottom: 0;
+  right: 2vw;
+}
+
+.container-uninorte img {
+  width: 200px;
+  image-rendering: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* Agrega una sombra */
+}
+
+/* Media Queries */
+
+/* Estilos para pantallas de hasta 600px */
+@media only screen and (max-width: 600px) {
+  .home-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .home-box img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .home-box h3,
+  .home-box h4 {
+    font-size: 16px;
+  }
+
+  .home-box form input {
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .home-box form button,
+  .home-box button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .container-uninorte img {
+    width: 150px;
+  }
+}
+
+/* Estilos para pantallas de hasta 768px */
+@media only screen and (max-width: 768px) {
+  .home-box {
+    width: 80%;
+    padding: 30px;
+  }
+
+  .home-box img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .home-box h3,
+  .home-box h4 {
+    font-size: 18px;
+  }
+
+  .home-box form input {
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .home-box form button,
+  .home-box button {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container-uninorte img {
+    width: 180px;
+  }
+}
+
+/* Estilos para pantallas de hasta 1024px */
+@media only screen and (max-width: 1024px) {
+  .home-box {
+    width: 70%;
+    padding: 35px;
+  }
+
+  .home-box img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .home-box h3,
+  .home-box h4 {
+    font-size: 20px;
+  }
+
+  .home-box form input {
+    height: 38px;
+    font-size: 18px;
+  }
+
+  .home-box form button,
+  .home-box button {
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  .container-uninorte img {
+    width: 190px;
+  }
+}
